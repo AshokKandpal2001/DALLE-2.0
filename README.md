@@ -7,10 +7,10 @@ This project is build using OPEN AI API KEY. It uses OPEN AI Dalle image generat
 
 ## Technologies Used
 
-- Tailwind CSS: Explain briefly how Tailwind CSS is used for styling.
-- React: Mention how React is utilized for the front end.
-- Cloudinary: Describe how Cloudinary is used for uploading user images.
-- MongoDB: Explain the role of MongoDB in storing project data.
+- Tailwind CSS: Tailwind CSS is used for styling to increase the user experience.
+- React: Front end is build using React JS for user experience so that user can interact with the application
+- Cloudinary: To upload user previously generated images on cloud Cloudinary is used.
+- MongoDB: User data, Post and prompts are stored on Mongo DB.
 
 ## Usage
 
@@ -18,19 +18,15 @@ This project is build using OPEN AI API KEY. It uses OPEN AI Dalle image generat
 
 Users need to have the following APIs and keys ready before using the project:
 
-- OpenAI API Key: Users must obtain their OpenAI API key.
-- Cloudinary API Key: Provide guidance on acquiring a Cloudinary API key.
-- MongoDB API Key: Explain how users can get their MongoDB API key.
+- OpenAI API Key: Users must obtain their OpenAI API key from https://platform.openai.com/api-keys.
+- Cloudinary API Key: Go to cloudinary.com and sign-up. After Creating your account go to dashboard and there you will find your Cloud Name , Cloudinary API Key and Cloudinary Secret Key. Copy all three and paste them in the .env file as per the naming convention in server/index.js
+- MongoDB API Key: Create your MongoDB database and copy your MongoDB url and paste it int .env file and connect your application to Mongo DB.
 
 ### Installation
+Download the zip or Clone the repository. Go to client folder and run `npm install` command to install all the client side dependencies and run  `npm run dev ` to start your application.
+Similarly go to the server folder and run `npm install` command to install all the dependencies and then run `npm run start` and this command will run your server
 
-Explain the steps required to set up the project locally, including any installations or configurations needed.
 
-### Running the Project
-
-Provide instructions on how to run both the client and server sides of the project.
-
-## Contributing
 
 Explain how users can contribute to the project, whether through bug reports, feature requests, or code contributions.
 
