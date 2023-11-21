@@ -23,13 +23,6 @@ Users need to have the following APIs and keys ready before using the project:
 - MongoDB API Key: Create your MongoDB database and copy your MongoDB url and paste it int .env file and connect your application to Mongo DB.
 
 ### Installation
-Download the zip or Clone the repository. Go to client folder and run `npm install` command to install all the client side dependencies and run  `npm run dev ` to start your application.
+Download the zip or Clone the repository.
+Go to client folder and run `npm install` command to install all the client side dependencies and run  `npm run dev ` to start your application.
 Similarly go to the server folder and run `npm install` command to install all the dependencies and then run `npm run start` and this command will run your server
-
-
-
-Explain how users can contribute to the project, whether through bug reports, feature requests, or code contributions.
-
-## License
-
-Mention the project's license, if any, and any terms of use or redistribution.
